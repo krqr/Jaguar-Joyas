@@ -14,18 +14,18 @@
 }
 
 *{
-  box-sizing: border-box;
+  box-sizing:border-box;
 }
 
 body{
   margin:0;
   min-height:100vh;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
-  background: var(--bg);
-  color: var(--text);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+  background:var(--bg);
+  color:var(--text);
   display:flex;
   justify-content:center;
-  padding: 60px 20px;
+  padding:25px 20px;
 }
 
 .container{
@@ -35,8 +35,9 @@ body{
 }
 
 .logo{
-  width:170px;
-  margin: 0 auto 30px;
+  width:400px;
+  max-width:100%;
+  margin:0 auto 20px;
   display:block;
 }
 
@@ -50,15 +51,15 @@ h1{
 .btn{
   display:block;
   width:100%;
-  background: var(--btn);
-  color: var(--btnText);
+  background:var(--btn);
+  color:var(--btnText);
   text-decoration:none;
   padding:22px 18px;
   border-radius:14px;
   font-size:22px;
   margin:18px 0;
   box-shadow:0 10px 20px rgba(0,0,0,0.15);
-  transition: all .15s ease;
+  transition:all .15s ease;
 }
 
 .btn:hover{
@@ -67,9 +68,19 @@ h1{
 }
 
 @media (max-width:420px){
-  h1{font-size:34px;}
-  .btn{font-size:20px; padding:20px;}
-  .logo{width:140px;}
+
+  h1{
+    font-size:34px;
+  }
+
+  .btn{
+    font-size:20px;
+    padding:20px;
+  }
+
+  .logo{
+    width:320px;
+  }
 }
 </style>
 </head>
@@ -82,13 +93,21 @@ h1{
 
 <h1>Bienvenido a Jaguar</h1>
 
-<a class="btn" href="https://wa.me/523328112300" target="_blank">WhatsApp</a>
+<a class="btn" href="https://wa.me/523328112300" target="_blank">
+WhatsApp
+</a>
 
-<a class="btn" href="https://www.instagram.com/jaguarjoyasmx?utm_source=qr&igsh=MWJwMnI5bnFjOTNjNw==" target="_blank">Instagram</a>
+<a class="btn" href="https://www.instagram.com/jaguarjoyasmx?utm_source=qr&igsh=MWJwMnI5bnFjOTNjNw==" target="_blank">
+Instagram
+</a>
 
-<a class="btn" href="https://www.tiktok.com/@jaguarjoyasmx?_r=1&_t=ZS-96Ae59S7zEL" target="_blank">TikTok</a>
+<a class="btn" href="https://www.tiktok.com/@jaguarjoyasmx?_r=1&_t=ZS-96Ae59S7zEL" target="_blank">
+TikTok
+</a>
 
-<a class="btn" href="https://maps.app.goo.gl/zx11Gest7oRivu3MA" target="_blank">Ubicación</a>
+<a class="btn" href="https://maps.app.goo.gl/zx11Gest7oRivu3MA" target="_blank">
+Ubicación
+</a>
 
 </div>
 
